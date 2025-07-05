@@ -1,7 +1,7 @@
 /*Global style*/
 body {
-  background-color: #fcfcfc;
-  font-family: "Roboto", "Arial" sans-serif;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
   color: #434455;
 }
 a {
@@ -21,7 +21,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .logo-top {
@@ -35,10 +35,13 @@ ul {
 }
 .link-nav:hover,
 .link-nav:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .link-nav:active {
   text-decoration: underline;
+}
+.contakt {
+  font-style: normal;
 }
 .link-addres {
   color: #434455;
@@ -47,7 +50,7 @@ ul {
 }
 .link-addres:hover,
 .link-addres:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /*Section-1*/
@@ -58,11 +61,12 @@ ul {
   font-weight: 700;
   font-size: 56px;
   color: #ffffff;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
 .top-but {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -77,10 +81,11 @@ ul {
 
 /*Global settings titles and captions and Section-2*/
 .sec-title {
+  text-transform: capitalize;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -99,6 +104,9 @@ ul {
 /*Section-3*/
 .team {
   background-color: #f4f4fd;
+}
+.mark {
+  background-color: #ffffff;
 }
 .team .text-title {
   text-align: center;
